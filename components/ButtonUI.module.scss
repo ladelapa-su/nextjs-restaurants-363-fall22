@@ -1,0 +1,15 @@
+.buttonUI {
+    width: 3rem;
+    height: 3rem;
+    border: 0;
+    background-color: pink;
+    img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    &.close {
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+    }
+}
